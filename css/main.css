@@ -1,0 +1,81 @@
+*{
+   box-sizing: border-box; 
+}
+body{
+    font-family: 'lato', sans-serif;
+ 
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+      
+  
+}
+h1,h2,h3{
+    font-weight: bold;
+}
+@media (max-width: 390px) {
+    .navigation {
+      height: 4rem; /* Reduce the height of the navigation bar */
+      font-size: 1.2rem; /* Reduce the font size for better fit */
+    }
+  
+    .navigation li {
+      margin: 0 2px; /* Further reduce spacing between navigation items */
+    }
+  
+    /* Adjust other content styles as needed to fit the smaller screen */
+  }
+  @media (max-width: 390px) {
+    .welcome {
+      font-size: 1.2rem; /* Reduce font size for better fit */
+      padding: 10px; /* Reduce padding for smaller screens */
+    }
+  }
+  
+@media (max-width: 512px) {
+    .navigation {
+      height: 4rem; /* Reduce the height of the navigation bar */
+      font-size: 1.2rem; /* Reduce the font size for better fit */
+    }
+  
+    .navigation li {
+      margin: 0 2px; /* Further reduce spacing between navigation items */
+    }
+  
+    /* Adjust other content styles as needed to fit the smaller screen */
+  }
+  @media (max-width: 512px) {
+    .welcome {
+      font-size: 1.2rem; /* Reduce font size for better fit */
+      padding: 10px; /* Reduce padding for smaller screens */
+    }
+  }
+
+  .text {
+    flex: 1; /* Allow text to take available space */
+    max-width:100%; /* Set a maximum width for the text content */
+  }
+  
+  .image {
+    flex: 1; /* Allow image to take available space */
+    max-width:433px; /* Set a maximum width for the image */
+  }
+  
+  .image img {
+    width: 100%; /* Make sure the image width doesn't exceed its container */
+  }
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,247 @@
+
+
+
+
+
+
+
+
+.heading{
+    background: linear-gradient(to right top , rgb(245, 100, 3), rgb(68, 63, 63));
+    padding: 3rem 5%;
+}
+.heading h1{
+    color: wheat;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+}
+.navigation{
+    background-color: orangered;
+    color: white;
+    width: 100%;
+    height: 5rem;
+    display:inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    
+}
+.navigation ul{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+}
+.navigation a{
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+.navigation a:hover{
+    color: rgb(135, 226, 226);
+   
+}
+.navigation li a:active{
+  color:rgb(135, 226, 226) ;
+}
+.navigation li{
+    margin: 0 1rem;
+}
+
+.navigation li:last-child { 
+    margin-left: auto; 
+  }
+  .navigation li:first-child{
+   
+    margin-left: auto;
+  }
+  .welcome{
+    background:linear-gradient(to left bottom ,aqua , grey);
+    display: inline-block;
+    color: antiquewhite;
+  }
+  .welcome h2{
+    font-size: 2.5rem;
+    width: 1rem;
+    margin: 1rem;
+  }
+  .footer{
+    background: linear-gradient(to right bottom, rgb(185, 87, 48),rgb(231, 222, 225) );
+    color: rgb(253, 253, 253);
+    display: inline-block;
+    width: 100%;
+    font-size: 1rem;
+    
+    
+  }
+  .footer a{
+    padding: 1rem;
+    text-decoration: none;
+    color: antiquewhite;
+    margin-left: 0;
+   
+  }
+  .footer a:hover{
+    color: aqua;
+  }
+  .footer ul{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+  
+  }
+  .footer h2{
+    text-align: left;
+  }
+  .footer p{
+    text-align: center;
+  }
+ .content p{
+width:100%;
+font-size: 1.5rem;
+margin: 3rem;
+ }
+ .content img{
+    max-width: 100%;
+    
+   
+ }
+ .content{
+    display:flex;
+    flex-wrap: wrap;
+ }
+ .services{
+  background: linear-gradient(to left bottom ,aqua , grey);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ }
+ .services h2{
+  margin-right: auto;
+  
+  color: aliceblue;
+  text-decoration: underline;
+ }
+ .all-services{
+  width: 80%;
+  margin: 6rem auto;
+  max-width: 60rem;
+ }
+ .all-services h2{
+  text-align: center;
+  font-size: 1.5rem;
+  color:#fff;
+  margin: 2rem 0;
+  text-decoration: none;
+ }
+ .services ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns:  repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 1.5rem;
+ }
+ .myservices img{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  object-fit: cover;
+ }
+ .myservices a{
+  text-decoration: none;
+  color:whitesmoke;
+ 
+ 
+ }
+ .myservices h3{
+  margin: 0.25rem 0;
+ }
+ .myservices a:hover, .myservices a:active{
+  
+  color:rgb(231, 99, 12);
+ 
+}
+.call{
+  color: rgb(131, 126, 120);
+ padding: 12px;
+ font-size: 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px; 
+  
+  margin: auto; 
+  color: antiquewhite;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  width: 120px; 
+}
+
+.form-group input,
+.form-group textarea {
+  flex: 1; 
+  margin-left: 10px; 
+  max-width: 300px;
+  height: 30px;
+}
+.form-group textarea{
+  flex: 1; 
+  margin-left: 10px; 
+  max-width: 300px;
+  height: 100px;
+}
+.form-group input[type="submit"] {
+  background-color: orangered; 
+  color: white; 
+  border: none; 
+  
+  max-width: 15%;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+  align-items: center;
+
+}
+.form-group input[type="submit"]:hover{
+  background-color: aqua;
+  color: orangered;
+}
+
+.singledetail{
+  display: flex;
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+.singledetail img{
+  max-width: 70%;
+  margin-bottom: 3rem;
+  border-radius: 50%;
+  
+}
+.singledetail p{
+  margin-left: 1rem;
+  max-width: 45%;
+  text-align: justify;
+}
+.about img {
+  border: 3px solid rgb(204, 18, 18);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
